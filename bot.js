@@ -90,7 +90,7 @@ m.sendMessage(args)
    }
    });
 
-const developers = ["472413769700474901","id"]
+const developers = ["366569932529336320","id"]
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
       if (!developers.includes(message.author.id)) return;
@@ -125,4 +125,4 @@ if (message.content.startsWith(adminprefix + 'setava')) {
 });
 
 
-client.login(process.env.NTczNTk2NDk1ODkxMjY3NjA0.XMtj7g.p1QVKHYU3N52S3PpiWAmxtao7-k);
+client.login(process.env.TOKEN);
